@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="180.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TelaCadasUserController">
+   <children>
+      <TextField fx:id="nome" layoutX="14.0" layoutY="46.0" prefHeight="25.0" prefWidth="572.0" />
+      <Text layoutX="14.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome" />
+      <Text layoutX="14.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cpf" />
+      <TextField fx:id="cpf" layoutX="14.0" layoutY="87.0" prefHeight="25.0" prefWidth="376.0" />
+      <CheckBox fx:id="funcionario" layoutX="481.0" layoutY="91.0" mnemonicParsing="false" text="Funcionario" />
+      <CheckBox fx:id="client" layoutX="408.0" layoutY="91.0" mnemonicParsing="false" text="Cliente" />
+      <Button layoutX="465.0" layoutY="141.0" mnemonicParsing="false" onMouseClicked="#salvar" prefHeight="25.0" prefWidth="121.0" text="Salvar" />
+   </children>
+</AnchorPane>

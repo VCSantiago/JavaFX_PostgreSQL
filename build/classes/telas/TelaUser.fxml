@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="768.0" prefWidth="1366.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TelaUserController">
+     <children>
+      <Pane prefHeight="65.0" prefWidth="1372.0" style="-fx-background-color: #c90d0d;" />
+      <Button fx:id="botaoMerca" alignment="BOTTOM_CENTER" contentDisplay="CENTER" layoutY="65.0" mnemonicParsing="false" onMouseClicked="#clicMer" onMouseEntered="#entMer" onMouseExited="#saiMer" prefHeight="160.0" prefWidth="160.0" style="-fx-background-color: #c90d0d; -fx-background-radius: 0; -fx-background-image: url(&quot;imagens/MerA.png&quot;); -fx-background-repeat: no-repeat; -fx-background-position: center top;" textAlignment="CENTER" textFill="#f5ec3d" wrapText="true" />
+      <Button fx:id="venda" layoutY="225.0" mnemonicParsing="false" onMouseClicked="#cuser" onMouseEntered="#euser" onMouseExited="#suser" prefHeight="160.0" prefWidth="160.0" style="-fx-background-color: #c90d0d; -fx-background-image: url(&quot;imagens/Ven.png&quot;); -fx-background-position: center; -fx-background-repeat: no-repeat; -fx-background-radius: 0;" />
+      <Button fx:id="btnC" layoutX="231.0" layoutY="137.0" mnemonicParsing="false" onMouseClicked="#telaCadas" onMouseEntered="#mouseEC" onMouseExited="#mouseSC" prefHeight="260.0" prefWidth="260.0" style="-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 20, 0, 0, 0); -fx-background-color: WHite; -fx-background-image: url(&quot;imagens/CadasUser.png&quot;); -fx-background-position: center; -fx-background-repeat: no-repeat; -fx-background-radius: 10;" />
+      <Button fx:id="btnRemoMErc" layoutX="630.0" layoutY="137.0" mnemonicParsing="false" onMouseClicked="#clicRemoverMerca" onMouseEntered="#entrouclicRemoverMerca" onMouseExited="#saiuclicRemoverMerca" prefHeight="260.0" prefWidth="260.0" style="-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 20, 0, 0, 0); -fx-background-color: WHite; -fx-background-image: url(&quot;imagens/RemoUser.png&quot;); -fx-background-position: center; -fx-background-repeat: no-repeat; -fx-background-radius: 10;" />
+      <Button fx:id="btnVisuMer" layoutX="1026.0" layoutY="137.0" mnemonicParsing="false" onMouseClicked="#clicouVisuMerca" onMouseEntered="#entrouVisuMerca" onMouseExited="#saiuVisuMerca" prefHeight="260.0" prefWidth="260.0" style="-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 20, 0, 0, 0); -fx-background-color: WHite; -fx-background-image: url(&quot;imagens/UsersA.png&quot;); -fx-background-position: center; -fx-background-repeat: no-repeat; -fx-background-radius: 10;" />
+      <Pane layoutY="543.0" prefHeight="225.0" prefWidth="160.0" style="-fx-background-color: #c90d0d;" />
+      <Button fx:id="user" layoutY="385.0" mnemonicParsing="false" onMouseClicked="#userClic" onMouseEntered="#eserent" onMouseExited="#usersai" prefHeight="160.0" prefWidth="160.0" style="-fx-background-color: white; -fx-background-radius: 0; -fx-background-image: url(&quot;imagens/User.png&quot;); -fx-background-repeat: no-repeat; -fx-background-position: center;" />
+   </children>
+</AnchorPane>

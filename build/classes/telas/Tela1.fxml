@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="788.0" prefWidth="1366.0" style="-fx-background-color: white; -fx-background-image: url(&quot;imagens/Fundo.png&quot;); -fx-background-size: cover;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Tela1Controller">
+   <children>
+      <Pane layoutX="524.0" layoutY="196.0" prefHeight="306.0" prefWidth="319.0" style="-fx-background-color: white; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 40, 0, 0, 0); -fx-background-radius: 20; -fx-background-image: url('log.png'); -fx-background-size: cover;">
+         <children>
+            <TextField fx:id="user" layoutX="32.0" layoutY="138.0" prefHeight="33.0" prefWidth="255.0" promptText="Usuario" style="-fx-background-radius: 10 10 0 0;" />
+            <PasswordField fx:id="senha" layoutX="32.0" layoutY="183.0" prefHeight="33.0" prefWidth="255.0" promptText="Senha" />
+            <Button fx:id="botaACER" layoutX="32.0" layoutY="227.0" mnemonicParsing="false" onMouseClicked="#clik" onMouseEntered="#mouseE" onMouseExited="#mouseS" prefHeight="33.0" prefWidth="255.0" style="-fx-background-radius: 0 0 10 10; -fx-background-color: #f5ec3d;" text="Acessar" textFill="#c90d0d" />
+            <Text fill="#c90d0d" layoutX="83.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login" wrappingWidth="152.13671875">
+               <font>
+                    <Font name="Microsoft Uighur" size="90.0" />
+               </font>
+            </Text>
+            <Line endX="125.0" layoutX="159.0" layoutY="114.0" startX="-125.0" stroke="#f5ec3d" strokeMiterLimit="20.0" />
+            <Text layoutX="235.0" layoutY="280.0" onMouseClicked="#primeiroacesso" strokeType="OUTSIDE" strokeWidth="0.0" text="1º Acesso" wrappingWidth="55.13671875" />
+         </children></Pane>
+   </children>
+</AnchorPane>

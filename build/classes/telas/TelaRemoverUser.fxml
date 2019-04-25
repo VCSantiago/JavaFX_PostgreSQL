@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="252.0" prefWidth="608.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TelaRemoverUserController">
+   <children>
+      <TableView fx:id="tabela" prefHeight="200.0" prefWidth="608.0">
+        <columns>
+          <TableColumn fx:id="nome" prefWidth="179.0" text="Nome" />
+          <TableColumn fx:id="codigo" prefWidth="111.0" text="Codigo" />
+            <TableColumn fx:id="cpf" prefWidth="168.0" text="Cpf" />
+            <TableColumn fx:id="tipo" prefWidth="149.0" text="Tipo" />
+        </columns>
+      </TableView>
+      <Button fx:id="remove" onMouseClicked="#remover"  layoutX="461.0" layoutY="213.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="133.0" text="Remover" />
+   </children>
+</AnchorPane>

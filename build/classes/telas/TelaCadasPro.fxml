@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="239.0" prefWidth="538.0" style="-fx-background-color: White;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TelaCadatrarProdutoController">
+   <children>
+      <TextField fx:id="nomePro" layoutX="14.0" layoutY="31.0" prefHeight="25.0" prefWidth="517.0" />
+      <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome do produto:" />
+      <TextField fx:id="qtdPro" layoutX="14.0" layoutY="82.0" prefHeight="25.0" prefWidth="112.0" />
+      <Text layoutX="14.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quantidade:" />
+      <Button fx:id="Salvar" layoutX="435.0" layoutY="191.0" mnemonicParsing="false" onMouseClicked="#noProdu" prefHeight="34.0" prefWidth="89.0" style="-fx-background-color: #c90d0d;" text="Salvar" textFill="#f5ec3d" />
+      <TextField fx:id="valorPro" layoutX="136.0" layoutY="82.0" prefHeight="25.0" prefWidth="112.0" />
+      <Text layoutX="136.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Valor de Venda:" wrappingWidth="112.275390625" />
+      <TextField fx:id="vendaPro" layoutX="257.0" layoutY="82.0" prefHeight="25.0" prefWidth="112.0" />
+      <Text layoutX="257.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Valor de compra:" wrappingWidth="112.275390625" />
+   </children>
+</AnchorPane>

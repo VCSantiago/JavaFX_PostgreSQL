@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="449.0" prefWidth="620.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TelaVisuMercaController">
+   <children>
+      <TableView fx:id="tabela" prefHeight="449.0" prefWidth="620.0">
+        <columns>
+          <TableColumn fx:id="nome" prefWidth="196.0" text="Nome" />
+          <TableColumn fx:id="qtd" minWidth="0.0" prefWidth="114.0" text="Qtd" />
+            <TableColumn fx:id="valorVenda" minWidth="0.0" prefWidth="115.0" text="Valor  de Venda" />
+            <TableColumn fx:id="valorCompra" minWidth="0.0" prefWidth="121.0" text="Valor  de Compra" />
+            <TableColumn fx:id="codigo" minWidth="0.0" prefWidth="73.0" text="Codigo" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

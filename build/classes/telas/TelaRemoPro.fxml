@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="449.0" prefWidth="620.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TelaRemoProController">
+   <children>
+      <TableView fx:id="tabela" prefHeight="386.0" prefWidth="620.0">
+        <columns>
+          <TableColumn fx:id="nome" prefWidth="449.0" text="Nome" />
+            <TableColumn fx:id="codigo" minWidth="0.0" prefWidth="170.0" text="Codigo" />
+        </columns>
+      </TableView>
+      <Button layoutX="512.0" layoutY="410.0" mnemonicParsing="false" onAction="#clickR" prefHeight="25.0" prefWidth="94.0" text="Remover" />
+   </children>
+</AnchorPane>

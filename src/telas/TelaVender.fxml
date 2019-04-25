@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="406.0" prefWidth="596.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TelaVenderController">
+   <children>
+      <TableView fx:id="tabelaProdutos" layoutX="12.0" layoutY="30.0" prefHeight="150.0" prefWidth="576.0">
+        <columns>
+          <TableColumn fx:id="viewNome" prefWidth="317.0" text="Nome" />
+          <TableColumn fx:id="viewValor" minWidth="0.0" prefWidth="145.0" text="Valor" />
+            <TableColumn fx:id="viewCode" minWidth="0.0" prefWidth="113.0" text="Codigo" />
+        </columns>
+      </TableView>
+      <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selecione os produtos:" wrappingWidth="238.13671875" />
+      <Button fx:id="vender" layoutX="492.0" layoutY="371.0" mnemonicParsing="false" onMouseClicked="#venderClik" prefHeight="25.0" prefWidth="90.0" text="Vende" />
+      <TableView fx:id="clientes" layoutX="12.0" layoutY="208.0" prefHeight="150.0" prefWidth="576.0">
+         <columns>
+            <TableColumn fx:id="nomeC" prefWidth="317.0" text="Nome" />
+            <TableColumn fx:id="codiC" minWidth="0.0" prefWidth="127.0" text="codigo" />
+            <TableColumn fx:id="cpfC" minWidth="0.0" prefWidth="131.0" text="cpf" />
+         </columns>
+      </TableView>
+      <Text layoutX="12.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selecione o Cliente" wrappingWidth="144.13671875" />
+   </children>
+</AnchorPane>
